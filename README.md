@@ -1,10 +1,13 @@
 # Advanced-Twins
 
-<a href="#"><img alt="Advanced-Twins forks" src="https://img.shields.io/github/forks/refiaa/Advanced-Twins?style=for-the-badge"></a>
-<a href="#"><img alt="Advanced-Twins last commit (main)" src="https://img.shields.io/github/last-commit/refiaa/Advanced-Twins/main?color=green&style=for-the-badge"></a>
-<a href="#"><img alt="Advanced-Twins Repo stars" src="https://img.shields.io/github/stars/refiaa/Advanced-Twins?style=for-the-badge&color=yellow"></a>
-<a href="#"><img alt="Advanced-Twins License" src="https://img.shields.io/github/license/refiaa/Advanced-Twins?color=orange&style=for-the-badge"></a>
-<a href="https://github.com/refiaa/Advanced-Twins/issues"><img alt="Advanced-Twins issues" src="https://img.shields.io/github/issues/refiaa/Advanced-Twins?color=purple&style=for-the-badge"></a>
+<!-- shields -->
+[![GitHub Release Date](https://img.shields.io/github/release-date/refiaa/Advanced-Twins?style=flat-square&color=red)](https://github.com/refiaa/Advanced-Twins/releases)
+[![GitHub License](https://img.shields.io/github/license/refiaa/Advanced-Twins?style=flat-square&color=orange)](https://github.com/refiaa/Advanced-Twins/blob/master/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/refiaa/Advanced-Twins?style=flat-square&color=yellow)](https://github.com/refiaa/Advanced-Twins/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/refiaa/Advanced-Twins?style=flat-square&color=green)](https://github.com/refiaa/Advanced-Twins/network/members)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/refiaa/Advanced-Twins?style=flat-square&color=blue)](https://github.com/refiaa/Advanced-Twins/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/refiaa/Advanced-Twins?style=flat-square&color=purple)](https://github.com/refiaa/Advanced-Twins/issues?q=is%3Aissue+is%3Aclosed)
+<!-- end shields -->
 
 
 > この UserScript は筑波大学のTwins(教育情報システム)の機能改善のために作成されました。
@@ -69,7 +72,7 @@
 
 ## ⛔️ _flowExecutionKeyを共有しないでください！⛔️ ##
 
-_flowExecutionKeyをインターネットで共有すると、アカウントへのフルアクセスが可能になりますなる場合があります。
+_flowExecutionKeyをインターネットで共有すると、アカウントへのフルアクセスが可能になる場合があります。
 誤って_flowExecutionKeyを公開した場合、**同じブラウザ**でTwinsから即座にログアウトしてください。
 
 ----
