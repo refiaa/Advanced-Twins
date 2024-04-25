@@ -1,0 +1,81 @@
+.syllabus-link {
+  color: blue !important;
+  cursor: pointer !important;
+  text-decoration: underline !important;
+  margin-left: 5px;
+}
+
+.delete-button {
+  background-color: transparent;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  border-radius: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.delete-button:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.delete-button::before {
+  content: "科目を削除";
+  visibility: hidden;
+  color: #fff;
+  background-color: #555;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1000;
+  left: 120%;
+  top: -75%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 12px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+  transition: visibility 0.2s, opacity 0.2s ease;
+  opacity: 0;
+}
+
+.delete-button:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+#kdb_Displayer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 800px;
+  max-height: 700px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  padding: 10px;
+  z-index: 9999;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#jsonToggleButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px 10px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.row {
+  margin-bottom: 10px;
+}

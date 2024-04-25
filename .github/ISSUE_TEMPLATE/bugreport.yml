@@ -1,0 +1,69 @@
+name: Bug Report
+description: Create a report to help us improve the Outlook Email Copy tool.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🐞 Bug reports are crucial for improving the quality of the Outlook Email Copy tool!
+
+        * ❔ For questions, help, ideas, or feature requests, please use the [Discussions](https://github.com/refiaa/Advanced-Twins/discussions) tab.
+
+        * Before submitting a bug report, please use the [Search](https://github.com/refiaa/Advanced-Twins/issues?q=is%3Aissue+is%3Aopen) feature to check if a similar issue has already been reported.
+
+        * Please fill out this form accurately to help us understand and address the issue more efficiently.
+  - type: input
+    attributes:
+      label: Advanced-Twins Version
+      description: Find this in the script header comments or your userscript manager dashboard.
+      placeholder: v0.0.1
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser
+      description: Which browser are you using with Advanced-Twins? Include version details from `about:version` or equivalent.
+      placeholder: Chrome 89.0.4389.82 (Official Build) (64-bit)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Userscript Manager
+      description: Specify the userscript manager you're using with Advanced-Twins.
+      placeholder: TamperMonkey / ViolentMonkey / GreaseMonkey
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction Steps
+      description: Describe the steps to reproduce the bug. Be as detailed as possible.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: Describe what actually happened. Include any error messages.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Console Errors
+      description: Include any relevant console errors.
+      placeholder: Paste console errors here, if any.
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Any additional information, screenshots, or files that might help us understand the issue better. **Ensure no personal information is included.**
+    validations:
+      required: false
