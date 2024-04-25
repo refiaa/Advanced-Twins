@@ -34,7 +34,7 @@
 
 ## 機能説明
 
-### 1. 時間割では以下のような機能が追加
+### 1. 時間割に以下のような機能が追加されました
 
 <p style="border: 1px solid #000; padding: 10px; display: inline-block;">
     <img src="https://github.com/refiaa/refiaa/assets/112306763/b00f23ee-3dec-4091-917c-f53a2ee1ea59" alt="Image with Border" width="800" height="1000">
