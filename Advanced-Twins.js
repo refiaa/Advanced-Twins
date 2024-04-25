@@ -2,7 +2,7 @@
 // @name         Advanced Twins for University of Tsukuba
 // @namespace    https://github.com/refiaa
 // @version      240425.1638
-// @description  TEST BUILD
+// @description  Provide Advanced function for Twins (University of Tsukuba)
 // @author       refiaa
 // @match        https://twins.tsukuba.ac.jp/campusweb/*
 // @grant        none
