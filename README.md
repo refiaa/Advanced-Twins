@@ -21,7 +21,7 @@
 
 ## 利用方法
 
-1. Advanced-Twinsは **UserScript** を利用しています。UserScript [[1]] [userscrips_faq]を管理するためにブラウザ拡張機能が必要です。
+1. Advanced-Twinsは **UserScript** を利用しています。UserScript[[1]][userscrips_faq]を管理するためにブラウザ拡張機能が必要です。
    * Chrome: [Violentmonkey][chrome_violentmonkey] or [Tampermonkey][chrome_tampermonkey]
    * Firefox: [Greasemonkey][firefox_greasemonkey], [Tampermonkey][firefox_tampermonkey], or [Violentmonkey][firefox_violentmonkey]  
    * Opera: [Tampermonkey][opera_tampermonkey]
