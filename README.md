@@ -1,4 +1,7 @@
+<div align="center">
+
 # Advanced-Twins
+
 
 <!-- shields -->
 [![GitHub Release Date](https://img.shields.io/github/release-date/refiaa/Advanced-Twins?style=flat-square&color=red)](https://github.com/refiaa/Advanced-Twins/releases)
@@ -13,6 +16,8 @@
 > この UserScript は筑波大学のTwins(教育情報システム)の機能改善のために作成されました。
 >
 > 改善された履修登録・履修削除・kdbを利用した科目検索・シラバス確認などの機能を提供します。
+
+<div align="left">
 
 ## 利用方法
 
@@ -36,10 +41,9 @@
 
 ### 1. 時間割に以下のような機能が追加されました
 
-<p style="border: 1px solid #000; padding: 10px; display: inline-block;">
-    <img src="https://github.com/refiaa/refiaa/assets/112306763/b00f23ee-3dec-4091-917c-f53a2ee1ea59" alt="Image with Border" width="800" height="1000">
-    <br><図-1、Twinsの履修登録・時間割のページ>
-</p>
+![325674844-b00f23ee-3dec-4091-917c-f53a2ee1ea59](https://github.com/refiaa/Advanced-Twins/assets/112306763/cb3ab57b-44c4-46fe-b335-6e0b22a9e4b9)
+<br><図-1、Twinsの履修登録・時間割のページ>
+
 
 - 履修登録のための「時間割コード」入力欄と入力ボタンが追加されました。
 - 時間割内の科目のシラバス確認のためのリンクが追加されました。
@@ -47,20 +51,25 @@
 
 ### 2. kdbへの直接接続による科目検索・履修登録機能
 
-<p style="border: 1px solid #000; padding: 10px; display: inline-block;">
-    <img src="https://github.com/refiaa/refiaa/assets/112306763/dc03147e-ccda-4d5f-a0c9-55213440450a" alt="Image with Border" width="800" height="600">
-    <br><図-2、kdbの学類科目の検索ページ>
-</p>
+![325677412-a5309d8f-5321-49da-aec6-f58497d8885b](https://github.com/refiaa/Advanced-Twins/assets/112306763/e865ade5-993f-4ba4-9da2-9d5d0b63f853)
+<br><図-2、kdbの学類科目の検索ページ>
 
-<p style="border: 1px solid #000; padding: 10px; display: inline-block;">
-    <img src="https://github.com/refiaa/refiaa/assets/112306763/a5309d8f-5321-49da-aec6-f58497d8885b" alt="Image with Border" width="800" height="600">
-    <br><図-3、kdbの大学院科目の検索ページ>
-</p>
+
+![325677418-dc03147e-ccda-4d5f-a0c9-55213440450a](https://github.com/refiaa/Advanced-Twins/assets/112306763/2cce5f9d-51b3-4294-9612-9e663676b0b2)
+<br><図-3、kdbの大学院科目の検索ページ>
+
 
 - 左下の **kdbを開く** ボタンを押すことでkdbの検索ページが開けます。
 - 学類・大学院授業の切り替えボタンを利用することで検索の転換が可能です。
 - 科目検索・科目名からの検索やモジュール・授業形式による検索機能が追加されたました。
 - kdbから検索した科目のシラバスの素早い確認や、kdbからの科目の追加機能が追加されました。
+
+## Update Log
+
+### 240416.1708
+```
+・Adjusted display element positioning to use relative units (viewport height and width) instead of fixed pixels.
+```
 
 
 ----

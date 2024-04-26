@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Advanced Twins for University of Tsukuba
 // @namespace    https://github.com/refiaa
-// @version      240425.1638
+// @version      240426.1707
 // @description  Provide Advanced function for Twins (University of Tsukuba)
 // @author       refiaa
 // @match        https://twins.tsukuba.ac.jp/campusweb/*
@@ -590,13 +590,13 @@
                 this.displayElement = document.createElement('div');
                 this.displayElement.id = 'kdb_Displayer';
                 this.displayElement.style.position = 'fixed';
-                this.displayElement.style.bottom = '20px';
-                this.displayElement.style.right = '20px';
-                this.displayElement.style.width = '800px';
-                this.displayElement.style.maxHeight = '700px';
+                this.displayElement.style.bottom = '2vh';
+                this.displayElement.style.right = '2vw';
+                this.displayElement.style.width = '40vw';
+                this.displayElement.style.maxHeight = '60vh';
                 this.displayElement.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
                 this.displayElement.style.color = 'black';
-                this.displayElement.style.padding = '10px';
+                this.displayElement.style.padding = '1vw';
                 this.displayElement.style.zIndex = '9999';
                 this.displayElement.style.overflowY = 'auto';
                 this.displayElement.style.border = '1px solid #ccc';
