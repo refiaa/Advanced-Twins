@@ -1,8 +1,8 @@
 {
   "name": "advanced-twins",
   "nameFull": "Advanced Twins for University of Tsukuba",
-  "version": "240425.1638",
-  "description": "Advanced features for University of Tsukuba's Twins system - TEST BUILD.",
+  "version": "240426.1707",
+  "description": "Provide Advanced function for Twins (University of Tsukuba)",
   "userScript": {
     "namespace": "https://github.com/refiaa/advanced-twins",
     "match": [
