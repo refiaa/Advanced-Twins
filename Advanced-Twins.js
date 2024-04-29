@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Advanced Twins for University of Tsukuba
 // @namespace    https://github.com/refiaa
-// @version      240426.1707
+// @version      240429.1605
 // @description  Provide Advanced function for Twins (University of Tsukuba)
 // @author       refiaa
 // @match        https://twins.tsukuba.ac.jp/campusweb/*
@@ -454,10 +454,22 @@
         addLinkToCell(cell, isSyllabus) {
             if (cell.querySelector('.syllabus-link')) return;
 
-            const courseCodeElement = cell.querySelector('a');
-            if (!courseCodeElement && !isSyllabus) return;
+            let courseCode = '';
 
-            const courseCode = isSyllabus ? cell.parentElement.querySelector('a')?.textContent.trim() : courseCodeElement?.textContent.trim();
+            if (isSyllabus) {
+                const courseCodeCell = cell.parentElement.querySelector('td:nth-child(3)');
+                if (courseCodeCell) {
+                    courseCode = courseCodeCell.textContent.trim();
+                }
+            } else {
+                const courseCodeElement = cell.querySelector('td[valign="top"]');
+                if (courseCodeElement) {
+                    const textContent = courseCodeElement.textContent.trim();
+                    const lines = textContent.split('\n');
+                    courseCode = lines[0].trim();
+                }
+            }
+
             if (!courseCode) return;
 
             const link = document.createElement('a');
@@ -474,7 +486,10 @@
             const linkContainer = document.createElement('div');
             linkContainer.classList.add('syllabus-link-container');
             linkContainer.appendChild(link);
-            cell.appendChild(linkContainer);
+
+            if (!cell.querySelector('.syllabus-link-container')) {
+                cell.appendChild(linkContainer);
+            }
         }
 
         addDeleteButton(cell) {

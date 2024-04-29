@@ -71,6 +71,11 @@
 ・Adjusted display element positioning to use relative units (viewport height and width) instead of fixed pixels.
 ```
 
+### 240429.1605
+```
+・履修登録期限ではない科目にシラバス確認ボタンを追加できなかった問題を修正
+```
+
 
 ----
 ### Any bugs？
