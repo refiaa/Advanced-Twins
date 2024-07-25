@@ -1,7 +1,8 @@
+<p align='center'>
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=65009C&height=300&section=header&text=Advanced%20Twins&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Imagine%20The%20Future.&fontColor=FFFFFF&descAlignY=51&descAlign=62"/>
+</p>
+
 <div align="center">
-
-# Advanced-Twins
-
 
 <!-- shields -->
 [![GitHub Release Date](https://img.shields.io/github/release-date/refiaa/Advanced-Twins?style=flat-square&color=red)](https://github.com/refiaa/Advanced-Twins/releases)
