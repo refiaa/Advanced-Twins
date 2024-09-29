@@ -51,7 +51,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
     "rimraf": "^4.4.1",
-    "rollup": "^3.29.4",
+    "rollup": "^3.29.5",
     "rollup-plugin-baked-env": "^1.0.1",
     "rollup-plugin-banner2": "^1.2.2",
     "rollup-plugin-commonjs": "^10.1.0",
